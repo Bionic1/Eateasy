@@ -1,0 +1,346 @@
+@font-face
+{
+	font-family: OpenSans;
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+body
+{
+	background: #eaede8;
+	font-family: Opensans, arial;
+}
+
+/* HEADER SECTION */
+
+header
+{
+	/*margin-top: 30px;*/
+	margin-bottom: 0;
+}
+
+.logo
+{
+	width: 165px;
+	background: #990033;
+	height: 115px;
+	text-align: center;
+	float: left;
+	border-radius: 55px 0 55px 0;
+	/*transform: rotateZ(45deg);*/
+
+}
+
+.logo span
+{
+	line-height: 30px;
+}
+
+.logo .eat
+{
+	color: #fff;
+	font-size: 48px;
+	display: block;
+	padding-top: 35px;
+	/*line-height: 40px;*/
+	font-weight: bold;
+}
+
+.logo .easy
+{
+	color: #fff;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	/*line-height: 20px;*/
+}
+
+/*NAVBAR*/
+nav .navmenu
+{
+	list-style: none;
+	/*float: left;*/
+	background: #fff;
+	padding-left: 5px;
+	margin-top: 0px;
+}
+
+nav .navmenu li
+{
+	display: inline-block;
+	padding: 20px 17px;
+}
+
+
+nav .navmenu li a
+{
+	font-size: 16px;
+	color: #111;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+nav .navmenu li a:hover
+{
+	color: #990033;
+}
+
+nav .navmenu li a.active
+{
+	color: #990033;
+}
+.btn.btn-danger{
+ color: #fff;
+ margin:30px 0px;
+}
+.btn.btn-primary{
+margin: 30px 20px;
+}
+.btn.btn-success{
+	margin: 30px 20px;
+}
+
+
+nav .phone
+{
+	float: right;
+	font-size: 18px;
+	color: #990033;
+	margin-right: 90px;
+	margin-left: 30px;
+}
+
+/*BANNER*/
+.banner
+{
+	text-align: center;
+	padding: 65px 0;
+	height: 450px;
+	background: #d3f3cc url('../img/banner.jpg');
+	background-position: 0 -150px;
+	background-size: 100%;
+}
+
+.banner .title
+{
+	font-size: 60px;
+	font-family: Forte;
+	color: #fff;
+	text-shadow: 1px 0px 5px #b81311;
+}
+
+.banner .content
+{
+	background: rgba(0,0,0,.2);
+	color: #fff;
+	padding: 10px;
+	margin: 30px auto;
+}
+
+.banner .btn-order
+{
+	background: #b81311;
+	color: #fff;
+	height: 55px;
+	padding: 0 30px;
+}
+
+.banner .btn-order:hover
+{
+	background: #c82322;
+}
+
+.about
+{
+	text-align: center;
+	padding: 40px 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.about .titletop
+{
+	font-size: 72px;
+	display: block;
+	line-height: 60px;
+}
+
+.about .titlebottom
+{
+	font-size: 36px;
+}
+
+
+.about .hrline
+{
+	border-top: 3px solid #b81311;
+	margin: 25px auto;
+}
+
+.about .text
+{
+	color: #3f0606;
+	margin-bottom: 40px;
+}
+
+.about .highlight
+{
+	font-weight: bold;
+	font-family: segoe print;
+	transform: rotate(-5deg);
+}
+
+.about .card
+{
+	border: 4px solid #c0c0c0;
+	background: #f0f0f0;
+}
+
+.about img
+{
+	width: 100%;
+	transform: rotate(3deg);
+	border: 4px solid #c0c0c0;
+}
+
+.about .r-right
+{
+	transform: rotate(3deg);
+}
+
+.about .r-left
+{
+	transform: rotate(-6deg);
+}
+
+
+.items
+{
+	background: #fff;
+	text-align: center;
+	font-size: 24px;
+	color: #b81311;
+}
+
+.items .col-md-3
+{
+	position: relative;
+}
+
+.items img
+{
+	width: 100%;
+	height: 300px;
+}
+
+.items .circle
+{   
+	position: absolute;
+    top: 75px;
+    left: 25%;
+    height: 150px;
+    width: 150px;
+    background: rgba(255, 255, 255, .9);
+    padding: 55px 5px;
+    border-radius: 200px;
+    transition: .5s;
+}
+
+.items .col-md-3:hover .circle
+{
+    height: 180px;
+    width: 180px;
+    padding: 70px 10px;
+    left: 20%;
+    color: #fff;
+    background: #b81311;
+}
+
+
+.motto
+{
+	text-align: center;
+	padding: 40px 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.motto b
+{
+	display: block;
+	color: #b81311;
+	font-size: 24px;
+}
+
+.location
+{
+	text-align: center;
+	background: #fc4000;
+	padding: 80px 0;
+	color: #fff;
+}
+
+.location h2
+{
+	font-family: Times New Roman;
+}
+
+.map img
+{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.footer
+{
+	padding: 50px 0;
+	background: #333;
+	color: #fff;
+}
+
+.footer .copyright
+{
+	text-align: center;
+}
+
+.footer .links
+{
+	text-align: right;
+}
+
+.footer .links a
+{
+	color: #fff;
+	padding: 5px 10px;
+}
+
+
+
+/* colors */
+.red
+{
+	color: #b81311;
+}
+
+.darkgreen
+{
+	color: #213902;
+}
+
+.navmenu li ul {
+	display: none;
+	position:absolute;  
+
+}
+
+.navmenu li:hover ul {
+	display:block;
+	z-index: 10;
+	padding: 0;
+}
+
+.navmenu li:hover ul li {
+	background-color: #fff;
+	display: block;
+}
